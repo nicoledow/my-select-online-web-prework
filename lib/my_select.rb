@@ -1,4 +1,3 @@
-my_collection = ["Arizona", "California", "New Jersey", "New Hampshire"]
 
 def my_select(collection)
   i = 0
