@@ -3,7 +3,8 @@ def my_select(collection)
   true_elements = []
   
   while i < collection.length
-    if (yield )
+    if yield(collection[i]) == true
+      true_elements << collection[i]
     i += 1
   end
 end
